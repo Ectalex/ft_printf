@@ -6,7 +6,7 @@
 #    By: albriffa <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/26 15:10:43 by albriffa          #+#    #+#              #
-#    Updated: 2023/10/26 15:22:28 by albriffa         ###   ########.fr        #
+#    Updated: 2023/10/30 15:22:23 by albriffa         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,13 @@ OBJ = $(SRC:.c=.o)
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
-SRC = 
+SRC =	ft_printf.c\
+	ft_print1.c\
+	ft_putchar_fd.c\
+	ft_strlen.c\
+	ft_itoa.c\
+	ft_utoa.c\
+	ft_print2.c\
 
 all : $(NAME)
 
